@@ -6,44 +6,55 @@ const Registration = () => {
       {/* Registration Fee Details */}
       <div className="m-8">
         <div className="max-w-3xl mx-auto bg-white shadow-2xl shadow-orange-500/40 rounded-lg p-6">
-          <h2 className="text-2xl font-bold text-center text-orange-800 mb-4">
-            Registration Fee Details
-          </h2>
-          <table className="w-full border border-gray-300 rounded-lg overflow-hidden">
-            <thead className="bg-orange-600 text-white">
-              <tr>
-                <th className="py-3 px-4 text-left">Category</th>
-                <th className="py-3 px-4 text-left">Registration Fee</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200">
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">Scholars/Students</td>
-                <td className="py-3 px-4">INR 3000/-</td>
-              </tr>
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">Faculty/Scientists</td>
-                <td className="py-3 px-4">INR 5000/-</td>
-              </tr>
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">Industry</td>
-                <td className="py-3 px-4">INR 10000/-</td>
-              </tr>
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">International Participants</td>
-                <td className="py-3 px-4">USD 150/-</td>
-              </tr>
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">Accompanying Person (India)</td>
-                <td className="py-3 px-4">INR 2000/-</td>
-              </tr>
-              <tr className="hover:bg-orange-50">
-                <td className="py-3 px-4">Accompanying Person (Int’l)</td>
-                <td className="py-3 px-4">USD 50/-</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+  <h2 className="text-2xl font-bold text-center text-orange-800 mb-4">
+    Registration Fee Details
+  </h2>
+
+  {/* Scrollable Table Wrapper */}
+  <div className="overflow-x-auto relative">
+    <table className="min-w-full border border-gray-100 rounded-lg">
+      <thead className="bg-orange-600 text-white">
+        <tr>
+          <th className="py-3 px-4 text-left">Category</th>
+          <th className="py-3 px-4 text-left">Registration Fee</th>
+        </tr>
+      </thead>
+      <tbody className="divide-y divide-gray-200">
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">Scholars/Students</td>
+          <td className="py-3 px-4">INR 3000/-</td>
+        </tr>
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">Faculty/Scientists</td>
+          <td className="py-3 px-4">INR 5000/-</td>
+        </tr>
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">Industry</td>
+          <td className="py-3 px-4">INR 10000/-</td>
+        </tr>
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">International Participants</td>
+          <td className="py-3 px-4">USD 150/-</td>
+        </tr>
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">Accompanying Person (India)</td>
+          <td className="py-3 px-4">INR 2000/-</td>
+        </tr>
+        <tr className="hover:bg-orange-50">
+          <td className="py-3 px-4">Accompanying Person (Int’l)</td>
+          <td className="py-3 px-4">USD 50/-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  {/* Scroll hint for mobile */}
+  <p className="text-sm text-gray-500 mt-2 text-center sm:hidden">
+    👉 Scroll sideways to view all details
+  </p>
+</div>
+
+
 
         {/* Bank Section */}
         <div className="mt-6 bg-orange-50 border-l-4 border-orange-600 p-4 rounded-md shadow-sm">

@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="flex items-center space-x-3 bg-orange-50 hover:bg-orange-100 p-3 rounded-lg transition duration-300">
               <span><MdCall className='text-xl text-orange-600' /></span>
               <a href="tel:+918368922050" className="text-gray-800 hover:text-orange-700 font-medium">
-                +91-8368922050 <span className="text-sm text-gray-500">(Prof. Anil Kumar Malik)</span>
+                <span className="text-sm text-gray-500">(Prof. Anil Kumar Malik)</span> <br/>+91-8368922050 
               </a>
             </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="flex items-center space-x-3 bg-orange-50 hover:bg-orange-100 p-3 rounded-lg transition duration-300">
               <span><MdCall className='text-xl text-orange-600' /></span>
               <a href="tel:+917726031844" className="text-gray-800 hover:text-orange-700 font-medium">
-                +91-7726031844 <span className="text-sm text-gray-500">(Dr. Neeraj Panwar)</span>
+                <span className="text-sm text-gray-500">(Dr. Neeraj Panwar)</span> <br/>+91-7726031844 
               </a>
             </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
             <div className="flex items-center space-x-3 bg-orange-50 hover:bg-orange-100 p-3 rounded-lg transition duration-300">
               <span><MdCall className='text-xl text-orange-600' /></span>
               <a href="tel:+919149324785" className="text-gray-800 hover:text-orange-700 font-medium">
-                +91-9149324785 <span className="text-sm text-gray-500">(Dr. Yogendra K. Gautam)</span>
+                <span className="text-sm text-gray-500">(Dr. Yogendra K. Gautam)</span> <br/>+91-9149324785 
               </a>
             </div>
           </div>

@@ -48,54 +48,54 @@ const About = () => {
         </section>
 
         {/* About Department Section */}
-        <section className="py-12 bg-gray-50">
-            <div className="container mx-auto px-6 md:px-12">
-                <div className="grid md:grid-cols-2 gap-8 items-center">
+<section className="py-12 bg-gray-50">
+  <div className="container mx-auto px-6 md:px-12">
+    <div className="grid md:grid-cols-2 gap-8 items-center">
 
+      {/* Image (shown first on mobile) */}
+      <div className="flex justify-center order-1 md:order-2">
+        <img
+          src={phydept}
+          alt="CCSU Meerut"
+          className="rounded-2xl shadow-2xl w-full max-w-3xl object-cover"
+        />
+      </div>
 
-                {/* Text */}
-                <div className="bg-white p-6 rounded-2xl shadow-lg">
-                    <h2 className="text-2xl font-bold text-orange-600 mb-4">
-                    Department of Physics,
-                    Chaudhary Charan Singh
-                    University Meerut, Uttar Pradesh
-                    INDIA
-                    </h2>
-                    <p className="text-gray-700 leading-relaxed text-justify">
-                    The Department of Physics, established in 1969, is a
-                    research-oriented DST-FIST funded academic unit of
-                    Chaudhary Charan Singh University Meerut. The
-                    Department offers NEP-2020 based programs in Ph.D., M.Sc.
-                    with four specializations: Electronics, Nanoscience and
-                    Nanotechnology, Optoelectronics and Advanced Solid State
-                    Physics, and B.Sc. (Honors with research) for young and
-                    dynamic minds. More than 30 students are pursuing Ph.D. in
-                    the thrust areas of material science and photonics.
-                    </p>
-                    <p className="text-gray-700 leading-relaxed mt-3 text-justify">
-                    The Department has been awarded with three center of excellence
-                    by the Higher Education department, Government of Uttar
-                    Pradesh (India) and actively involved in research covering a
-                    wide variety of frontier areas in Materials Science and
-                    photonics such as Renewable Energy, Hydrogen storage and
-                    Gas sensors, Superconductors, Biomaterials & Bio-/ChemoSensors, Energy storage devices, Photocatalysis,
-                    Antimicrobial, Waste-water treatment, Photonics and Metamaterials. The Department has several ongoing projects
-                    supported by various funding agencies and has active
-                    research collaborations at National and International levels.
-                    </p>
-                </div>
+      {/* Text (shown below image on mobile, left on desktop) */}
+      <div className="bg-white p-6 rounded-2xl shadow-lg order-2 md:order-1">
+        <h2 className="text-2xl font-bold text-orange-600 mb-4">
+          Department of Physics, Chaudhary Charan Singh
+          University Meerut, Uttar Pradesh INDIA
+        </h2>
+        <p className="text-gray-700 leading-relaxed text-justify">
+          The Department of Physics, established in 1969, is a
+          research-oriented DST-FIST funded academic unit of
+          Chaudhary Charan Singh University Meerut. The
+          Department offers NEP-2020 based programs in Ph.D., M.Sc.
+          with four specializations: Electronics, Nanoscience and
+          Nanotechnology, Optoelectronics and Advanced Solid State
+          Physics, and B.Sc. (Honors with research) for young and
+          dynamic minds. More than 30 students are pursuing Ph.D. in
+          the thrust areas of material science and photonics.
+        </p>
+        <p className="text-gray-700 leading-relaxed mt-3 text-justify">
+          The Department has been awarded with three center of excellence
+          by the Higher Education department, Government of Uttar
+          Pradesh (India) and actively involved in research covering a
+          wide variety of frontier areas in Materials Science and
+          photonics such as Renewable Energy, Hydrogen storage and
+          Gas sensors, Superconductors, Biomaterials & Bio-/ChemoSensors,
+          Energy storage devices, Photocatalysis, Antimicrobial,
+          Waste-water treatment, Photonics and Metamaterials. The
+          Department has several ongoing projects supported by various
+          funding agencies and has active research collaborations at
+          National and International levels.
+        </p>
+      </div>
 
-                {/* Image */}
-                <div className="flex justify-center">
-                    <img 
-                    src={phydept}
-                    alt="CCSU Meerut"
-                    className="rounded-2xl shadow-2xl w-full max-w-3xl object-cover"
-                    />
-                </div>
-                </div>
-            </div>
-        </section>
+    </div>
+  </div>
+</section>
 
         {/* Meerut Historical Background Section */}
         <section className="py-12 px-6 bg-gradient-to-br from-gray-50 to-gray-100">

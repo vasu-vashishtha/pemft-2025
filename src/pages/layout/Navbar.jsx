@@ -58,8 +58,8 @@ const Navbar = () => {
         className="w-full p-4 bg-orange-400 md:hidden relative z-20"
       >
         <div className="flex justify-between items-center">
-          <h2 className="text-2xl font-semibold bg-gradient-to-r from-orange-400 to-orange-600 text-transparent bg-clip-text">
-            Portfolio
+          <h2 className="text-2xl font-semibold text-orange-800 bg-clip-text">
+            PEMFT-2025
           </h2>
           <button
             onClick={() => setIsOpen(!isOpen)}
