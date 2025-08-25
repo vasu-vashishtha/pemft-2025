@@ -28,7 +28,8 @@ const Home = () => {
             Chaudhary Charan Singh
             University Meerut, Uttar Pradesh
             (INDIA) <br/>
-            DATE: November 13-15, 2025
+            Workshop date 12 Nov 2025 <br/>
+            Conference dates 13-15 Nov. 2025.
           </p>
           <Link to="/registration">
             <button className="px-6 py-3 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg text-white font-semibold shadow-lg hover:scale-105 transition">
@@ -105,7 +106,7 @@ const Home = () => {
             Notification of Acceptance: September 30, 2025 <br />
             Last date of registration: October 15, 2025 <br />
             Full Paper Submission: October 30, 2025 <br />
-            Abstract Submission at: <span className="font-medium">pemft@gmail.com</span>
+            Abstract Submission at: <span className="font-medium">pemft2025@gmail.com</span>
           </p>
         </div>
       </div>
