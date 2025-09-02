@@ -8,6 +8,7 @@ import { MdTopic } from "react-icons/md";
 import { FaUsers } from "react-icons/fa";
 import Registration from "../Registration";
 import { IoMdContact } from "react-icons/io";
+import { RiHomeSmile2Fill } from "react-icons/ri";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // mobile menu
@@ -44,6 +45,7 @@ const Navbar = () => {
         { to: "/advisory-committee", label: "Advisory Committee" },
       ],
     },
+    {to: "/accommodation", label: "Accommodation", icon: <RiHomeSmile2Fill/>},
     { to: "/registration", label: "Registration", icon: <IoMdContacts /> },
     { to: "/contact", label: "Contact", icon: <IoMdContact /> },
   ];

@@ -49,7 +49,7 @@ const Contact = () => {
         {/* Google Maps Section */}
         <div className="max-w-3xl mx-auto mt-8">
           <h3 className="text-xl font-semibold text-center text-orange-800 mb-4">
-            Venue Location - Atal Bihari Vajpayee Auditorium (Atal Sabhagar), CCSU Meerut
+            Venue Location - Atal Sabhagar, CCSU Meerut
           </h3>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe

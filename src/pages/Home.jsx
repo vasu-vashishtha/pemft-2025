@@ -6,7 +6,7 @@ const Home = () => {
     <>
       {/* Hero-section */}
       <section
-        className="relative h-[90%] w-full bg-cover bg-center flex items-center justify-center py-20 px-10"
+        className="relative h-[90%] w-full bg-cover bg-center flex items-center justify-center py-20 px-10 font-serif"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')" }}
       >
         {/* Overlay for dark effect */}
@@ -23,17 +23,17 @@ const Home = () => {
             (PEMFT-2025)
 
           </h1>
-          <p className="text-lg md:text-2xl max-w-2xl mx-auto mb-6">
-            Organized by Department of Physics
-            Chaudhary Charan Singh
-            University Meerut, Uttar Pradesh
-            (INDIA) <br/>
-            Workshop date 12 Nov 2025 <br/>
-            Conference dates 13-15 Nov. 2025.
+          <p className="text-lg md:text-2xl max-w-3xl mx-auto mb-6">
+            Organized by <br/>
+            <span className='text-4xl font-semibold'>Department of Physics</span> <br/>
+            <span className='text-2xl font-serif'>Chaudhary Charan Singh
+            University Meerut, Uttar Pradesh, India</span> <br/>
+            Workshop Date: November 12, 2025 <br/>
+            Conference Dates: November 13-15, 2025
           </p>
-          <Link to="/registration">
-            <button className="px-6 py-3 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg text-white font-semibold shadow-lg hover:scale-105 transition">
-              Register Now
+          <Link to="https://forms.gle/yqeGYEFrkKFhJUWf9">
+            <button className="px-6 py-3 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg text-white font-semibold shadow-lg hover:scale-105 transition cursor-pointer">
+              Abstract Submission
             </button>
           </Link>
         </div>
@@ -43,13 +43,13 @@ const Home = () => {
         <div className="w-full bg-gradient-to-r from-orange-500 to-orange-700 py-3 overflow-hidden">
           <div className="marquee">
             <span className="text-white text-lg font-medium">
-              📅 Date: 15-16 March 2025
+              📅 Date: 12-15 November 2025
             </span>
             <span className="text-white text-lg font-medium">
-              📍 Venue: Chaudhary Charan Singh University, Meerut
+              📍 Venue: Atal Sabhagar, CCSU Campus Meerut
             </span>
             <span className="text-white text-lg font-medium">
-              🎯 Theme: Innovation & Technology for Future
+              🎯 Theme: International Conference on Photonics and Emerging Materials for Futuristic Technology (PEMFT-2025)
             </span>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Home = () => {
         <div className="flex-1 min-w-[280px] max-w-xs flex items-center justify-center text-center bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
           <p className="text-sm sm:text-base">
             <span className="font-semibold text-orange-800">Mode of Presentation</span> <br />
-            Plenary / Invited / Oral / Poster
+            Plenary / Invited / Oral / Poster / Sponsered
           </p>
         </div>
 
@@ -93,20 +93,20 @@ const Home = () => {
           <p className="text-sm sm:text-base">
             <span className="font-semibold text-orange-800">Conference Venue</span> <br />
             Atal Sabhagar <br />
-            Chaudhary Charan Singh University, Meerut <br />
+            Chaudhary Charan Singh University Campus, Meerut <br />
             Uttar Pradesh (INDIA)
           </p>
         </div>
         
         {/* Card 3 */}
-        <div className="flex-1 min-w-[280px] max-w-sm flex items-center justify-center text-center bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
+        <div className="flex-1 min-w-[280px] max-w-sm flex items-center justify-center text-Start bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
           <p className="text-sm sm:text-base leading-relaxed">
             <span className="font-semibold text-orange-800">Important Dates</span> <br />
-            Abstract Submission Deadline: September 15, 2025 <br />
-            Notification of Acceptance: September 30, 2025 <br />
-            Last date of registration: October 15, 2025 <br />
-            Full Paper Submission: October 30, 2025 <br />
-            Abstract Submission at: <span className="font-medium">pemft2025@gmail.com</span>
+            Abstract Submission Deadline: <b>Sep. 15, 2025</b> <br />
+            Notification of Acceptance: <b>Sep. 30, 2025</b> <br />
+            Last date of Registration: <b>Oct. 15, 2025</b> <br />
+            Full Paper Submission: <b>Oct. 30, 2025</b> <br />
+            Abstract Submission at: <span className="font-medium"><b>pemft2025@gmail.com</b></span>
           </p>
         </div>
       </div>

@@ -99,7 +99,7 @@ const About = () => {
 
         {/* Meerut Historical Background Section */}
         <section className="py-12 px-6 bg-gradient-to-br from-gray-50 to-gray-100">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto rounded-2xl shadow-lg p-5 bg-white">
             <h2 className="text-3xl font-bold text-center text-orange-600 mb-6">
             Meerut : Historical Background
             </h2>
