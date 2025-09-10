@@ -200,7 +200,7 @@ const Advisors = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-36 h-36 rounded-full object-cover mb-4 border-4 border-orange-200"
+                className="w-36 h-36 rounded-full object-fill mb-4 border-4 border-orange-200"
               />
               <h3 className="text-lg font-semibold">{member.name}</h3>
               <p className="text-sm text-orange-600">{member.designation}</p>

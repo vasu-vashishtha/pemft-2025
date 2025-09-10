@@ -101,7 +101,7 @@ const Patrons = () => {
                   <img
                     src={person.image}
                     alt={person.name}
-                    className="w-36 h-36 rounded-full object-cover mb-4 border-4 border-orange-200"
+                    className="w-36 h-36 rounded-full object-fill mb-4 border-4 border-orange-200"
                   />
                   <h4 className="text-lg font-semibold text-gray-800">
                     {person.name}
