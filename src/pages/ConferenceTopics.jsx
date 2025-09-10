@@ -25,6 +25,14 @@ const ConferenceTopics = () => {
           <li>Spintronic and Multiferroic Materials</li>
           <li>Computational Modeling and Simulations</li>
         </ul>
+        <div className='mt-2'>
+          <span className='text-md font-semibold'>Abstract Template:- </span>
+          <span>
+            <a href="https://cdn.ccsuniversity.ac.in/public/pdf/2025/09/Abstract%20submission%20template.docx" target="_blank" rel="noopener noreferrer">
+              Click here to download
+            </a>
+          </span>
+        </div>
       </div>
     </div>
     </>
