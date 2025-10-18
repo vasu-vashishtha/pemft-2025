@@ -5,11 +5,11 @@ const ConferenceTopics = () => {
     <>
       {/* Conference Topics Section */}
     <div className="m-8">
-      <div className="max-w-4xl mx-auto bg-white shadow-2xl shadow-orange-500/40 rounded-lg p-6">
-        <h2 className="text-2xl font-bold text-center text-orange-800 mb-4">
+      <div className="max-w-4xl mx-auto bg-white shadow-2xl shadow-purple-500/40 rounded-lg p-6">
+        <h2 className="text-2xl font-bold text-center text-pink-800 mb-4">
           Conference Topics
         </h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700">
+        <ul className="list-disc list-inside space-y-2 text-purple-700">
           <li>Quantum Photonics and Quantum Materials</li>
           <li>Photonics and Materials for Sensors and Imaging</li>
           <li>Nonlinear Optics and Ultrafast Photonics</li>
@@ -26,9 +26,10 @@ const ConferenceTopics = () => {
           <li>Computational Modeling and Simulations</li>
         </ul>
         <div className='mt-2'>
-          <span className='text-md font-semibold'>Abstract Template:- </span>
+          <span className='text-md font-semibold text-purple-700'>Abstract Template:- </span>
           <span>
-            <a href="https://cdn.ccsuniversity.ac.in/public/pdf/2025/09/Abstract%20submission%20template.docx" target="_blank" rel="noopener noreferrer">
+            <a href="https://cdn.ccsuniversity.ac.in/public/pdf/2025/09/Abstract%20submission%20template.docx" target="_blank" rel="noopener noreferrer"
+            className='text-pink-500'>
               Click here to download
             </a>
           </span>

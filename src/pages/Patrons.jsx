@@ -28,7 +28,7 @@ const members = {
   Convener: [
     {
       name: "Prof. Anil Kumar Malik",
-      image: "https://cdn.ccsuniversity.ac.in/cv/jpg/P125.jpg",
+      image: "https://cdn.ccsuniversity.ac.in/public/jpg/2025/09/anil-kumar.jpg",
       designation: "CCSU, Meerut"
     },
   ],
@@ -63,15 +63,16 @@ const members = {
       designation: "CCSU, Meerut"
     },
     {
-      name: "Dr. Kavita Sharma",
-      image: "https://cdn.ccsuniversity.ac.in/cv/jpg/Dr.%20kavita%20.jpg",
-      designation: "CCSU, Meerut"
-    },
-    {
       name: "Dr. Vivek Kumar Nautiyal",
       image: "https://cdn.ccsuniversity.ac.in/cv/jpg/vivek-nautiyal.jpg",
       designation: "CCSU, Meerut"
     },
+    {
+      name: "Dr. Kavita Sharma",
+      image: "https://cdn.ccsuniversity.ac.in/cv/jpg/Dr.%20kavita%20.jpg",
+      designation: "CCSU, Meerut"
+    },
+    
   ],
 };
 
@@ -87,7 +88,7 @@ const Patrons = () => {
         {Object.entries(members).map(([category, people]) => (
           <div key={category}>
             {/* Category Title */}
-            <h3 className="text-3xl font-semibold text-orange-700 mb-8 text-center">
+            <h3 className="text-3xl font-semibold text-pink-700 mb-8 text-center">
               {category}
             </h3>
 
@@ -101,12 +102,12 @@ const Patrons = () => {
                   <img
                     src={person.image}
                     alt={person.name}
-                    className="w-36 h-36 rounded-full object-fill mb-4 border-4 border-orange-200"
+                    className="w-36 h-36 rounded-full object-fill mb-4 border-4 border-purple-200"
                   />
                   <h4 className="text-lg font-semibold text-gray-800">
                     {person.name}
                   </h4>
-                  <p className="text-orange-600 font-medium">{person.designation}</p>
+                  <p className="text-purple-600 font-medium">{person.designation}</p>
                 </div>
               ))}
             </div>

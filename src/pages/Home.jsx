@@ -14,7 +14,7 @@ const Home = () => {
 
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 ">
             International Conference
             on
             Photonics and Emerging
@@ -32,7 +32,7 @@ const Home = () => {
             Conference Dates: November 13-15, 2025
           </p>
           <Link to="https://forms.gle/yqeGYEFrkKFhJUWf9">
-            <button className="px-6 py-3 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg text-white font-semibold shadow-lg hover:scale-105 transition cursor-pointer">
+            <button className="px-6 py-3 bg-gradient-to-r from-purple-400 to-purple-600 rounded-lg text-white font-semibold shadow-lg hover:scale-105 transition cursor-pointer">
               Abstract Submission
             </button>
           </Link>
@@ -40,7 +40,7 @@ const Home = () => {
       </section>
 
       {/* Strip */}
-        <div className="w-full bg-gradient-to-r from-orange-500 to-orange-700 py-3 overflow-hidden">
+        <div className="w-full bg-gradient-to-r from-purple-500 to-purple-700 py-3 overflow-hidden">
           <div className="marquee">
             <span className="text-white text-lg font-medium">
               📅 Date: 12-15 November 2025
@@ -56,8 +56,8 @@ const Home = () => {
 
       {/* About Conference */}
       <div className='flex flex-col justify-center items-center mt-8'>
-        <h3 className='text-3xl font-bold text-orange-500'>About Conference</h3>
-        <span className='text-justify text-xl text-orange-400 px-8 py-6'>
+        <h3 className='text-3xl font-bold text-pink-700'>About Conference</h3>
+        <span className='text-justify text-xl font-semibold text-purple-500 px-8 py-6'>
           The conference theme “Photonics and Emerging Materials for
           Futuristic Technology” (PEMFT-2025) ties together the pressing need
           for sustainability with the potential of materials science to drive
@@ -81,17 +81,17 @@ const Home = () => {
       {/* Important Dates Section */}
       <div className="flex flex-col md:flex-row justify-center items-stretch gap-6 m-6">
         {/* Card 1 */}
-        <div className="flex-1 min-w-[280px] max-w-xs flex items-center justify-center text-center bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
+        <div className="flex-1 min-w-[280px] max-w-xs flex items-center justify-center text-center bg-white shadow-2xl shadow-purple-500/50 rounded-lg p-4">
           <p className="text-sm sm:text-base">
-            <span className="font-semibold text-orange-800">Mode of Presentation</span> <br />
+            <span className="font-bold text-pink-800 text-lg">Mode of Presentation</span> <br />
             Plenary / Invited / Oral / Poster / Sponsered
           </p>
         </div>
 
         {/* Card 2 */}
-        <div className="flex-1 min-w-[280px] max-w-xs flex items-center justify-center text-center bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
+        <div className="flex-1 min-w-[280px] max-w-xs flex items-center justify-center text-center bg-white shadow-2xl shadow-pink-500/50 rounded-lg p-4">
           <p className="text-sm sm:text-base">
-            <span className="font-semibold text-orange-800">Conference Venue</span> <br />
+            <span className="font-bold text-pink-800 text-lg">Conference Venue</span> <br />
             Atal Sabhagar <br />
             Chaudhary Charan Singh University Campus, Meerut <br />
             Uttar Pradesh (INDIA)
@@ -99,13 +99,13 @@ const Home = () => {
         </div>
         
         {/* Card 3 */}
-        <div className="flex-1 min-w-[280px] max-w-sm flex items-center justify-center text-Start bg-white shadow-2xl shadow-orange-500/50 rounded-lg p-4">
+        <div className="flex-1 min-w-[280px] max-w-sm flex items-center justify-center text-Start bg-white shadow-2xl shadow-purple-500/50 rounded-lg p-4">
           <p className="text-sm sm:text-base leading-relaxed">
-            <span className="font-semibold text-orange-800">Important Dates</span> <br />
-            Abstract Submission Deadline: <b>Sep. 15, 2025</b> <br />
-            Notification of Acceptance: <b>Sep. 30, 2025</b> <br />
-            Last date of Registration: <b>Oct. 15, 2025</b> <br />
-            Full Paper Submission: <b>Oct. 30, 2025</b> <br />
+            <span className="font-bold text-pink-800 text-lg">Important Dates</span> <br />
+            Abstract Submission: <b>Oct. 31, 2025 (Extended)</b> <br />
+            Notification of Acceptance: <b>Nov. 01, 2025</b> <br />
+            Last date of Registration: <b>Nov. 01, 2025</b> <br />
+            Full Paper Submission: <b>Nov. 05, 2025</b> <br />
             Abstract Submission at: <span className="font-medium"><b>pemft2025@gmail.com</b></span>
           </p>
         </div>

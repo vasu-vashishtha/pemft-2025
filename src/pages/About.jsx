@@ -21,10 +21,10 @@ const About = () => {
 
             {/* Text */}
             <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <h2 className="text-2xl font-bold text-orange-600 mb-4">
+                <h2 className="text-2xl font-bold text-pink-600 mb-4">
                 About Chaudhary Charan Singh University (CCSU), Meerut
                 </h2>
-                <p className="text-gray-700 leading-relaxed text-justify">
+                <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
                 Chaudhary Charan Singh University (CCSU), established in 1965, 
                 is one of the premier educational institutions of India, 
                 encompassing a vast, beautiful, and pollution-free campus 
@@ -33,11 +33,11 @@ const About = () => {
                 Central Instrumental Facility, Gymnasium, Indoor Stadium, 
                 Library, Hostels, Guest House, Medical Centre, and more.
                 </p>
-                <p className="text-gray-700 leading-relaxed mt-3 text-justify">
+                <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
                 The University affiliates 714 aided, government, and self-financing 
                 colleges/institutions, catering to more than 5.25 lakh students. 
                 Recently, CCSU was awarded <b>A++ grade (CGPA 3.66) by NAAC</b>, 
-                ranked among top 100 state universities in India as per NIRF-2024, 
+                41 rank among state universities in India as per NIRF-2025, 
                 and achieved <b>222 rank in QS-2025</b> Southern Asian Universities ranking. 
                 It was also recognized as “The Best State University” in Research 
                 Citation Award-2023 by Clarivate (Web of Science).
@@ -63,11 +63,11 @@ const About = () => {
 
       {/* Text (shown below image on mobile, left on desktop) */}
       <div className="bg-white p-6 rounded-2xl shadow-lg order-2 md:order-1">
-        <h2 className="text-2xl font-bold text-orange-600 mb-4">
+        <h2 className="text-2xl font-bold text-pink-600 mb-4">
           Department of Physics, Chaudhary Charan Singh
           University Meerut, Uttar Pradesh INDIA
         </h2>
-        <p className="text-gray-700 leading-relaxed text-justify">
+        <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
           The Department of Physics, established in 1969, is a
           research-oriented DST-FIST funded academic unit of
           Chaudhary Charan Singh University Meerut. The
@@ -78,7 +78,7 @@ const About = () => {
           dynamic minds. More than 30 students are pursuing Ph.D. in
           the thrust areas of material science and photonics.
         </p>
-        <p className="text-gray-700 leading-relaxed mt-3 text-justify">
+        <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
           The Department has been awarded with three center of excellence
           by the Higher Education department, Government of Uttar
           Pradesh (India) and actively involved in research covering a
@@ -100,10 +100,10 @@ const About = () => {
         {/* Meerut Historical Background Section */}
         <section className="py-12 px-6 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-5xl mx-auto rounded-2xl shadow-lg p-5 bg-white">
-            <h2 className="text-3xl font-bold text-center text-orange-600 mb-6">
+            <h2 className="text-3xl font-bold text-center text-pink-600 mb-6">
             Meerut : Historical Background
             </h2>
-            <p className="text-lg leading-relaxed text-gray-700 text-justify">
+            <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
             The historic city of Meerut dating back from Ramayana and with relics 
             from Mahabharata period is located in the western part of the state 
             Uttar Pradesh, India. Meerut is known as the gateway to Hastinapur—the 
@@ -111,7 +111,7 @@ const About = () => {
             back to this period prove that this region was the capital of the 
             Kauravas and Pandavas.
             </p>
-            <p className="text-lg leading-relaxed text-gray-700 text-justify mt-4">
+            <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
             Meerut city is located 80 km northeast of the national capital New 
             Delhi, and 480 km west of the state capital, Lucknow. Meerut is one of 
             the largest manufacturers of sports goods in the country, known as the 
@@ -120,7 +120,7 @@ const About = () => {
             country, as well as one of Asia's biggest gold markets. The city is also 
             an education hub in western Uttar Pradesh.
             </p>
-            <p className="text-lg leading-relaxed text-gray-700 text-justify mt-4">
+            <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
             Meerut is famously associated with the 1857 first freedom struggle 
             against Company rule in India. The famous slogan 
             <span className="italic"> "Dilli Chalo" ("Let's march to Delhi!")</span> 
@@ -130,7 +130,7 @@ const About = () => {
             Haridwar, Rishikesh, and Garhmuketshwar are situated within 100 km radius 
             from Meerut.
             </p>
-            <p className="text-lg leading-relaxed text-gray-700 text-justify mt-4">
+            <p className="text-purple-500 leading-relaxed text-justify font-semibold text-lg">
             The city has beautiful and historical places nearby. India's first 
             Regional Rapid Transit System (RRTS) connects the National capital New 
             Delhi to Meerut.
